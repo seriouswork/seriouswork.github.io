@@ -6,22 +6,45 @@ margin:0;
 
 }
 
+/* summary (about me<a id="Linkedin" href="https://www.linkedin.com/in/zefu-li-23866b140/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" height="30" width="30"></a>)
+qualification
+proficient
+exposure
+professional headshot
+a several page for resume(Downloads)
+what do you want to do in the tech indstry
+github Linkedin professional twitter
+what projects you want to work on, what do you want to accomplish
+ */
+.header{
+    background-image: url(https://static.pexels.com/photos/503763/pexels-photo-503763.jpeg);
+    background-size: cover;
+    height: 100vh;
+
+}
 
 
-
-
-#header{
-  background-image: url(https://static.pexels.com/photos/503763/pexels-photo-503763.jpeg);
-height: 100vh;
-background-size: cover;
-color: #d8d2e0;
+#text{
+left: 0;
+line-height: 200px;
+margin: auto;
+margin-top: -100px;
+position: absolute;
+top: 50%;
+width: 100%;
+color: #f1eff4;
 text-align: center;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 font-size: 100px;
 font-family: courier;
 font-weight: normal;
+
+}
+
+#Linkedin{
+  position: absolute;
+  
+}
+
+#AboutMe  {
 
 }
