@@ -17,7 +17,7 @@ github Linkedin professional twitter
 what projects you want to work on, what do you want to accomplish
  */
 .header{
-    background-image: url(https://static.pexels.com/photos/503763/pexels-photo-503763.jpeg);
+    background-color: #33568e;
     background-size: cover;
     height: 100vh;
 
@@ -27,6 +27,7 @@ what projects you want to work on, what do you want to accomplish
 line-height: 200px;
 */
 #text{
+line-height: 200px;
 left: 0;
 margin: auto;
 margin-top: 20px;
@@ -40,6 +41,18 @@ font-family: courier;
 font-weight: normal;
 
 }
+
+#scroll{
+  bottom: 100px;
+  margin: auto;
+  color: #f1eff4;
+  position: fixed;
+  text-align: center;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+
+}
+
 
 #Linkedin{
   position: absolute;
