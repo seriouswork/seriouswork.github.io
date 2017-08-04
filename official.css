@@ -7,6 +7,7 @@ margin:0;
 }
 
 /* summary (about me<a id="Linkedin" href="https://www.linkedin.com/in/zefu-li-23866b140/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" height="30" width="30"></a>)
+at least 3 webpages long
 qualification
 proficient
 exposure
@@ -27,6 +28,8 @@ what projects you want to work on, what do you want to accomplish
 line-height: 200px;
 */
 #text{
+
+  overflow: hidden;
 line-height: 200px;
 left: 0;
 margin: auto;
@@ -42,15 +45,21 @@ font-weight: normal;
 
 }
 
-#scroll{
+
+#My-Journey{
+
+padding: 17px 25px;
+border: none;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #839dc6;
   bottom: 100px;
   margin: auto;
-  color: #f1eff4;
+  color: #2e3035;
   position: fixed;
   text-align: center;
   margin-bottom: 10px;
-  word-wrap: break-word;
-
+font-size: 40px;
 }
 
 
