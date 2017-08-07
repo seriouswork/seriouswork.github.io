@@ -7,7 +7,7 @@ margin:0;
 }
 
 /* summary (about me<a id="Linkedin" href="https://www.linkedin.com/in/zefu-li-23866b140/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" height="30" width="30"></a>)
-at least 3 webpages long
+Update your website from time to time
 qualification
 proficient
 exposure
@@ -25,49 +25,87 @@ what projects you want to work on, what do you want to accomplish
 }
 
 /*
-line-height: 200px;
+try to use javascript loop to display this text animation infinitely
 */
 #text{
 
-  overflow: hidden;
-line-height: 200px;
+-webkit-animation-name: color;
+-webkit-animation-duration:15s;
+-webkit-animation-interation-count: 10;
+-webkit-background-clip: text;
+animation-fill-mode: both;
+animation-delay: 0s;
+
+display: inline-block;
+line-height: 100px;
 left: 0;
 margin: auto;
 margin-top: 20px;
 position: absolute;
 top: 20%;
 width: 100%;
-color: #f1eff4;
+color: transparent;
 text-align: center;
-font-size: 49px;
-font-family: courier;
+font-size: 100px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 font-weight: normal;
 
 }
 
-
-#My-Journey{
-
-padding: 17px 25px;
-border: none;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: #839dc6;
-  bottom: 100px;
-  margin: auto;
-  color: #2e3035;
-  position: fixed;
-  text-align: center;
-  margin-bottom: 10px;
-font-size: 40px;
+@keyframes color {
+    0%   {background-color:#f71509; }
+      1%   {background-color:#bc918f; }
+        2%   {background-color:#ce251c; }
+    3%  {background-color:#25ea6a; }
+    4%  {background-color:#f142f4; }
+    5%  {background-color:#f29f41; }
+    6%  {background-color:#42d3f7; }
+    7% {background-color:#b5ccf2; }
+    8%   {background-color:#f71509; }
+      9%   {background-color:#0459e2; }
+        10%   {background-color:#0b1628; }
+    11%  {background-color:#e8ae02; }
+    12%  {background-color:#b5af9f; }
+    13%  {background-color:#13dd64; }
+    14%  {background-color:#cd13dd; }
+    15% {background-color:#dd6813; }
+    100%{background-color:#30d328; }
 }
+
+
+
+#text2{
+  display: inline-block;
+  line-height: 200px;
+  left: 0;
+  margin: auto;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  color: #f1eff4;
+  text-align: center;
+  font-size: 30px;
+  font-family: courier;
+  font-weight: normal;
+}
+
+#part2{
+  background-color: #c7c9cc;
+  background-size: cover;
+  height: 100vh;
+}
+
+#Aboutme{
+
+}
+
+
+
+
 
 
 #Linkedin{
   position: absolute;
-
-}
-
-#AboutMe  {
 
 }
