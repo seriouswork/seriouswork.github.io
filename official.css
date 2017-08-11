@@ -2,9 +2,33 @@ body{
 margin:0;
 }
 
-.nav{
-
+ul{
+  width: 100%;
+  position: fixed;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #0d0e11;
 }
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+  color: white;
+}
+
 
 /* summary (about me<a id="Linkedin" href="https://www.linkedin.com/in/zefu-li-23866b140/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" height="30" width="30"></a>)
 Update your website from time to time
@@ -42,7 +66,7 @@ left: 0;
 margin: auto;
 margin-top: 20px;
 position: absolute;
-top: 20%;
+top: 14%;
 width: 100%;
 color: transparent;
 text-align: center;
@@ -69,25 +93,41 @@ font-weight: normal;
     13%  {background-color:#13dd64; }
     14%  {background-color:#cd13dd; }
     15% {background-color:#dd6813; }
-    100%{background-color:#30d328; }
+    100%{background-color:white; }
 }
 
 
 
 #text2{
-  display: inline-block;
+    display: inline-block;
   line-height: 200px;
   left: 0;
   margin: auto;
   margin-top: 20px;
   position: absolute;
-  bottom: 20%;
+  bottom: 5%;
   width: 100%;
   color: #f1eff4;
   text-align: center;
   font-size: 30px;
-  font-family: courier;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: normal;
+}
+
+.scrolldown{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+border: 2px solid #fff;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+text-align: center;
+line-height: 100px;
+font-size: 20px;
+overflow: hidden;
+
 }
 
 #part2{
@@ -111,6 +151,12 @@ font-weight: normal;
   transition: .5s ease;
   backface-visibility: hidden;
   position: absolute;
-top:50%;
+top:55%;
 left:50%;
+}
+
+#github{
+  top: 55%;
+  left:54%;
+  position: absolute;
 }
