@@ -77,7 +77,7 @@ font-weight: normal;
 }
 
 @keyframes color {
-    0%   {background-color:#f71509; width:100px;}
+    0%   {background-color:#f71509; }
       1%   {background-color:#bc918f; }
         2%   {background-color:#ce251c; }
     3%  {background-color:#25ea6a; }
@@ -96,7 +96,11 @@ font-weight: normal;
     100%{background-color:white; }
 }
 
-
+.iframe{
+  position: relative;
+  text-align: center;
+  top: 35%;
+}
 
 #text2{
     display: inline-block;
@@ -151,12 +155,12 @@ overflow: hidden;
   transition: .5s ease;
   backface-visibility: hidden;
   position: absolute;
-top:55%;
+bottom: 1%;
 left:50%;
 }
 
 #github{
-  top: 55%;
+  bottom: 1%;
   left:54%;
   position: absolute;
 }
