@@ -1,20 +1,24 @@
+body{
+  background-color: black;
+}
+
 .circle{
   position: absolute;
-  top: 50%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%,-50%);
 border: 2px solid #fff;
 border-radius: 50%;
-width: 100px;
-height: 100px;
+width: 70px;
+height: 70px;
 text-align: center;
-line-height: 100px;
-font-size: 80px;
+line-height: 70px;
+font-size: 70px;
 overflow: hidden;
 }
 
 .circle .fa{
-  color: #fff;
+  color: white;
   margin: 0;
   padding: 0;
   animation: animate 1s linear infinite;
@@ -24,27 +28,27 @@ overflow: hidden;
 
   0%
   {
-    transform: translateY(-50px);
+    transform: translatey(-50px);
     text-shadow: 0 50px 0 #fff;
   }
 
   20%{
-    transform: translateY(0px);
-    text-shadow: 0 50px 0 #fff;
+    transform: translatey(0px);
+    text-shadow: 0 10px 0 #fff;
   }
 
     40%{
-      transform: translateY(0px);
-      text-shadow: 0 50px 0 #fff;
+      transform: translatey(0px);
+      text-shadow: 0 -10px 0 #fff;
     }
 
       60%{
-          transform: translateY(0px);
+          transform: translatey(0px);
           text-shadow: 0 50px 0 #fff;
         }
 
         100%{
-           transform: translateY(100px);
+           transform: translatey(100px);
            text-shadow: 0 50px 0 #fff;
          }
 }

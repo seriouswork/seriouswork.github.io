@@ -3,13 +3,15 @@ body {
   margin:0;
 }
 
-
 ul {
+  position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #111214;
+    width: 100%;
+    z-index: 500;
 }
 
 li {
@@ -42,9 +44,40 @@ what projects you want to work on, what do you want to accomplish
  */
 
 
+.human{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
 
+/*
+position of the icons need to be fixed, when resizing the webpage or the webpage gets smaller, the icons will change its positions
+*/
 
+.wifi{
+  position: absolute;
+  top: 32%;
+  left: 57%;
+  font-size: 90px;
+  color: white;
 
+}
+
+.questionmark{
+  position: absolute;
+  top: 32%;
+  right: 8%;
+  font-size: 150px;
+  color: white;
+}
+
+.exclamationmark{
+  position: absolute;
+  top: 32%;
+  left:8%;
+  font-size: 150px;
+  color: white;
+}
 
 
 
@@ -54,6 +87,20 @@ what projects you want to work on, what do you want to accomplish
    height: 100vh;
  }
 
+#about{
+  color: white;
+  background-color: #111214;
+  height: 50vh;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+
+  text-align: center;
+}
+
+
+#blog{
+  background-color: #e6e8ef;
+}
 /*
 try to use javascript loop to display this text animation infinitely
 */
@@ -103,7 +150,6 @@ font-weight: normal;
 
 
 
-
 .contact{
   background-color: #c7c9cc;
   background-size: cover;
@@ -124,13 +170,15 @@ font-weight: normal;
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
-  position: absolute;
+  text-align: center;
 bottom: 1%;
 left:50%;
 }
 
 #github{
+    backface-visibility: hidden;
+  display: block;
   bottom: 1%;
   left:54%;
-  position: absolute;
+  text-align: center;
 }
