@@ -1,34 +1,33 @@
-body{
-margin:0;
+
+body {
+  margin:0;
 }
 
-ul{
-  width: 100%;
-  position: fixed;
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #0d0e11;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111214;
 }
 
-li{
-  float: left;
+li {
+    float: left;
 }
 
-li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: red;
-  color: white;
+    background-color: red;
 }
-
 
 /* summary (about me<a id="Linkedin" href="https://www.linkedin.com/in/zefu-li-23866b140/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" height="30" width="30"></a>)
 Update your website from time to time
@@ -41,12 +40,19 @@ what do you want to do in the tech indstry
 github Linkedin professional twitter
 what projects you want to work on, what do you want to accomplish
  */
-.header{
-    background-color: #33568e;
-    background-size: cover;
-    height: 100vh;
 
-}
+
+
+
+
+
+
+
+ .header{
+   background-color: #33568e;
+   background-size: cover;
+   height: 100vh;
+ }
 
 /*
 try to use javascript loop to display this text animation infinitely
@@ -75,7 +81,6 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 font-weight: normal;
 
 }
-
 @keyframes color {
     0%   {background-color:#f71509; }
       1%   {background-color:#bc918f; }
@@ -96,45 +101,10 @@ font-weight: normal;
     100%{background-color:white; }
 }
 
-.iframe{
-  position: relative;
-  text-align: center;
-  top: 35%;
-}
 
-#text2{
-    display: inline-block;
-  line-height: 200px;
-  left: 0;
-  margin: auto;
-  margin-top: 20px;
-  position: absolute;
-  bottom: 5%;
-  width: 100%;
-  color: #f1eff4;
-  text-align: center;
-  font-size: 30px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-weight: normal;
-}
 
-.scrolldown{
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-border: 2px solid #fff;
-border-radius: 50%;
-width: 20px;
-height: 20px;
-text-align: center;
-line-height: 100px;
-font-size: 20px;
-overflow: hidden;
 
-}
-
-#part2{
+.contact{
   background-color: #c7c9cc;
   background-size: cover;
   height: 100vh;
