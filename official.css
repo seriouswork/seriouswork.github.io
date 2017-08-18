@@ -99,7 +99,13 @@ position of the icons need to be fixed, when resizing the webpage or the webpage
 
 
 #blog{
-  background-color: #e6e8ef;
+  background-color: #222223;
+color: white;
+}
+
+#contact{
+  font-size: 50px;
+  background-color: #ef2715;
 }
 /*
 try to use javascript loop to display this text animation infinitely
@@ -150,15 +156,7 @@ font-weight: normal;
 
 
 
-.contact{
-  background-color: #c7c9cc;
-  background-size: cover;
-  height: 100vh;
-}
 
-#Aboutme{
-
-}
 
 
 
